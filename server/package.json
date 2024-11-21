@@ -1,0 +1,1 @@
+{"name":"holosync","version":"1.0.0","description":"server for holosync","main":"index.js","scripts":{"devStart":"nodemon server.js"},"keywords":[],"author":"Yogesh Rai","license":"ISC","dependencies":{"cors":"^2.8.5","dotenv":"^16.4.5","express":"^4.21.1"},"devDependencies":{"nodemon":"^2.0.15"}}
