@@ -17,3 +17,12 @@ exports.getFlightData = async (req, res, next) => {
       next(error);
     }
   }
+
+exports.getPopulationData = async (req, res, next) => {
+    try {
+      const flights = await dataService.getPopulationData();
+      res.status(200).json(flights);
+    } catch (error) {
+      next(error);
+    }
+  }

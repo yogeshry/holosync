@@ -13,7 +13,7 @@ export default function VisualizationScreen() {
       <Text style={styles.subtitle}>Device ID: {deviceId}</Text>
 
       <Text style={styles.options}>Choose a Visualization:</Text>
-      <Button title="Bar Chart" onPress={() => router.push('/visualization/bar-chart')} />
+      <Button title="Scatter Plot" onPress={() => router.push('/visualization/bar-chart')} />
       <Button title="Line Chart" onPress={() => router.push('/visualization/line-chart')} />
       <Button title="Pie Chart" onPress={() => router.push('/visualization/pie-chart')} />
       <Button title="Linked Chart" onPress={() => router.push('/visualization/linked-chart')} />

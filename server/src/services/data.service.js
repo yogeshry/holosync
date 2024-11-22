@@ -16,4 +16,13 @@ exports.getFlightData = async () => {
    return flights;
 }
 
+exports.getPopulationData = async () => {
+   //read the data from the file
+   const fs = require('fs');
+   const data = fs.readFileSync('./src/data/population.json');
+   //parse the data into a JSON object
+   const flights = JSON.parse(data);
+   return flights;
+}
+
   
